@@ -27,7 +27,18 @@ padding-right: 50px;
 .googlebtn{
     margin-top: 30px;
 }
+.d-flex{
+    display:flex;
+    justify-content: center;
 
+}
+.d-flex {
+    list-style: none;
+}
+ .d-flex li{
+  margin: 10px 20px ;
+
+ }
 @media screen and (max-width:600px) {
 
 }

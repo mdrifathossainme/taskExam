@@ -1,16 +1,18 @@
 import { signOut } from 'firebase/auth';
 import React from 'react';
+import AddItem from '../../Components/AddItem/AddItem';
 import auth from '../../firebase.init';
+import Header from './Header';
 
 const Home = () => {
    
-    const logout=()=>{
-        signOut(auth);
-    }
+   
     return (
         <div>
-            <h1>Home</h1>
-            <button onClick={logout}>LogOut</button>
+          <Header/>
+
+          <AddItem/>
+            
         </div>
     );
 };
