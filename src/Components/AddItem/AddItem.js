@@ -3,7 +3,6 @@ import { toast } from 'react-toastify';
 
 const AddItem = () => {
     
-
     const onSubmit =( e )=> {
         e.preventDefault()
         const  name=e.target.name.value
